@@ -6,3 +6,4 @@ numpy
 imagecodecs
 opencv-python-headless
 plotly
+streamlit-drawable-canvas
