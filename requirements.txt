@@ -5,3 +5,4 @@ matplotlib
 numpy
 imagecodecs
 opencv-python-headless
+plotly
