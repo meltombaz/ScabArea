@@ -47,7 +47,7 @@ if scale_img:
     draw_fig = st.sidebar.plotly_chart(fig, use_container_width=True)
 
     with st.sidebar.form("scale_form"):
-        real_world_length = st.number_input("Real length of selected bar (mm)", min_value=0.0001, value=1.0)
+        real_world_length = st.number_input("Real length of selected bar (mm)", min_value=0.0001, value=2.0)
         pixel_length = st.number_input("Pixel length of bar (manually measured)", min_value=1.0, value=100.0)
         submitted = st.form_submit_button("Calibrate")
     
